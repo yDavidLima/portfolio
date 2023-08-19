@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Lima</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&family=Orbitron&family=Oswald:wght@400;500;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  
+</head>
+
+<body>
+<div class="container-one" id="home">
+    <nav>
+        <h1 class="logo">Portfó<span>lio</span></h1>
+        <div class="position-menu">
+        <img onclick="menuVisible()" class="menu-img" src="./img/Design sem nome (15)-fotor-bg-remover-2023081563824.png">
+        </div>
+        <ul class="menu-list">
+            <li><a class="link-menu" href="#home">Home</a></li>
+            <li><a class="link-menu"  href="#sobre">Sobre Mim</a></li>
+            <li><a class="link-menu" href="#projetos-id">Projetos</a></li>
+            <li><a class="link-menu" href="#fale-comigo">Fale Comigo</a></li>
+            
+    
+        </ul>
+    </nav>
+    <div class="main-left">
+        <h1>David <span>Lima</span></h1>
+        <h2>Programador Front-End</h2>
+        <a href="https://www.linkedin.com/in/david-de-lima-silva-482a7b204/" target="_blank"><img class="rede-home" src="https://aiesec.org.ec/wp-content/uploads/2019/09/linkedin-icon-logo-png-transparent-1080x1080.png"></a>
+        <a href="https://github.com/yDavidLima" target="_blank"><img class="rede-git" src="./img/github-icon.png"></a>
+
+    </div>
+
+</div>
+
+<section id="sobre">
+    <img class="david" src="./img/David-fotor-bg-remover-2023080685521.png">
+    <div class="about-me">
+        <h1>Sobre mim</h1>
+        <p>Olá, sou David de Lima Silva, um entusiasta front-end a caminho do desenvolvedor FullStack, gosto de usufruir da infilidade de criar experiências web envolventes. Com conhecimentos em <span>JavaScript, HTML e CSS,</span> busco combinar criatividade e tecnologia para construir interfaces interativas, responsivas e sistemas resultantes de problemas. Estou preparado para contribuir em projetos desafiadores e aprender continuamente nesta empolgante jornada de desenvolvimento web.</p>
+        <button class="contact" id="show-icons">Entre em contato</button>
+<!-- div para mostrar os icones quando clicado no button -->
+        <div class="contact-icons" id="contact-icons">
+            <a href="mailto:daviddelima2222@gmail.com"><img class="gmail" src="./img/R.png" alt="enviar-email"></a> 
+            <a href="https://www.linkedin.com/in/david-de-lima-silva-482a7b204/" target="_blank"><img class="linkedin" src="./img/linkedin-fotor-bg-remover-20230807191432.png" alt="linkedin"></a>
+           
+        </div>
+    </div>
+
+       
+
+
+</section>
+
+<section class="secao-projetos" id="projetos-id">
+    <div class="projects"> 
+        <h2>Principais Projetos</h2>
+        
+        
+       <div class="card-position" >     
+                <div class="card-one">
+                    <img id="calc" src="./img/Calculadora.png"> 
+                    <h5>Calculadora</h5>
+                    <p>Neste projeto temos uma Calculadora com as Principais e mais simples operações de matemática. O foco é desenvolver minhas habilidades em JavaScript e trazer um design único e padrão de minhas características pessoais. </p>
+                    <div><a href="https://ydavidlima.github.io/projeto-calculadora/" target="_blank">Ver Projeto</a> <a href="https://github.com/yDavidLima/projeto-calculadora" target="_blank">Código</a></div>
+                </div>
+
+                <div class="card-one">
+                    <img src="https://sdtimes.com/wp-content/uploads/2014/09/todo-manager-icon.png"> 
+                    <h5>Todo List</h5>
+                    <p>Projeto para trazer um suporte ao usuário em questões de organização, resolver problemas diários e para outros fins, implementei a ferramenta JSON para guardar as informações descritas no input, também exclui uma tarefa ou conclui. </p>
+                    <div><a href="https://ydavidlima.github.io/projeto-todo-list/" target="_blank">Ver Projeto</a> <a href="https://github.com/yDavidLima/projeto-todo-list" target="_blank">Código</a></div>
+                </div>
+
+                <div class="card-one">
+                    <img src="https://cdn-icons-png.flaticon.com/512/7609/7609957.png"> 
+                    <h5>Cronometro</h5>
+                    <p>Projeto com design simples e objetivo, desenvolvido especialmente para absolver habilidades na manipulação de laços de repetição em JavaScript. </p>
+                    <div><a href="https://ydavidlima.github.io/projeto-cronometro/" target="_blank">Ver Projeto</a> <a href="https://github.com/yDavidLima/projeto-cronometro" target="_blank">Código</a></div>
+                </div>
+
+               
+        </div>
+        <div class="div-button-vermais">
+        <button onclick="verMais()" class="ver-mais">Ver mais</button>
+        </div>
+
+        <!--  -->
+        <div class="card-position-dois" >     
+            <div class="card-one">
+                <img id="calc" src="https://play-lh.googleusercontent.com/jF5rdVW8P1SZI_Bvyxg6JrjwXmeUr_RfjmRQrZKmIWsZDWiFIqNm-XLBYODNVE1ThW4Q=w220"> 
+                <h5>jokenPÔ</h5>
+                <p>Neste Projeto podemos jogar o famoso jogo JonkenPÔ contra uma "inteligencia artificial", projeto focado para estudos relacionados ao JavaScript para exercitar as ferramentas do JS.</p>
+                <div><a href="https://ydavidlima.github.io/projeto-jokenpo/" target="_blank">Ver Projeto</a> <a href="https://github.com/yDavidLima/projeto-jokenpo" target="_blank">Código</a></div>
+            </div>
+
+            <div class="card-one">
+                <img src="./img/coins-vector-clipart-4-fotor-bg-remover-20230810185228.png"> 
+                <h5>Conversor de Moeda</h5>
+                <p>Projeto onde podemos ter as opções de converter moeda brasileira para dólar americano, libra ou euro, futuramente quero trazer novas funcionalidades para esse projeto, expandir as possibilidades de conversões e melhorar o designer.</p>
+                <div><a href="https://ydavidlima.github.io/projeto-conversor-de-moeda/" target="_blank">Ver Projeto</a> <a href="https://github.com/yDavidLima/projeto-conversor-de-moeda" target="_blank">Código</a></div>
+            </div>
+
+            <div class="card-one">
+                <img  src="./img/sort 1.png"> 
+                <h5>Projeto Sorteio</h5>
+                <p>Um sorteador de números. Nele colocamos um valor mínimo e o valor máximo para assim trazer outro número aleatório que vai ser nosso resultado do sorteio.</p>
+                <div><a href="https://ydavidlima.github.io/projeto-devSorteio/" target="_blank">Ver Projeto</a> <a href="https://github.com/yDavidLima/projeto-devSorteio" target="_blank">Código</a></div>
+            </div>
+            
+    </div>
+            <!--  --> 
+            <!--  -->
+            <!-- <div class="card-position-tres" >     
+                <div class="card-one">
+                    <img id="calc" src="./img/Calculadora.png"> 
+                    <h5>Calculadora</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem saepe tenetur sequi ipsum voluptatibus magnam quia deleniti accusantium laborum ea consequatur atque id, obcaecati totam officia nulla tempore cumque. Libero?</p>
+                    <lorem><a href="https://ydavidlima.github.io/projeto-calculadora/" target="_blank">Ver Projeto</a> <a href="https://github.com/yDavidLima/projeto-calculadora" target="_blank">Código</a></lorem>
+                </div>
+    
+                <div class="card-one">
+                    <img src="./img/Cronometro.png"> 
+                    <h5>Cronometro</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem saepe tenetur sequi ipsum voluptatibus magnam quia deleniti accusantium laborum ea consequatur atque id, obcaecati totam officia nulla tempore cumque. Libero?</p>
+                    <lorem><a href="https://ydavidlima.github.io/projeto-cronometro/" target="_blank">Ver Projeto</a> <a>Código</a></lorem>
+                </div>
+    
+                <div class="card-one">
+                    <img src="./img/todo-list.png"> 
+                    <h5>Todo List</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem saepe tenetur sequi ipsum voluptatibus magnam quia deleniti accusantium laborum ea consequatur atque id, obcaecati totam officia nulla tempore cumque. Libero?</p>
+                    <lorem><a href="https://ydavidlima.github.io/projeto-todo-list/" target="_blank">Ver Projeto</a> <a>Código</a></lorem>
+                </div> -->
+                
+            
+
+    </div>
+</section>
+
+<footer id="fale-comigo">
+    <h2>David de Lima Silva</h2>
+    <p>daviddelima2222@gmail.com</p>
+    <p>Fale Comigo</p>
+    <div>
+    <a href="mailto:daviddelima2222@gmail.com"><img class="gmail" src="./img/R.png"></a>
+    <a href="tel:+5511932264233"><img class="zap" src="./img/zap-fotor-bg-remover-20230807191240.png"></a>
+    <a href="https://www.linkedin.com/in/david-de-lima-silva-482a7b204/" target="_blank"><img class="linkedin" src="https://aiesec.org.ec/wp-content/uploads/2019/09/linkedin-icon-logo-png-transparent-1080x1080.png"></a>
+    </div>
+
+</footer>
+
+
+
+
+    
+
+
+
+</body>
+
+<script src="scripts.js">
+   
+</script>
+
+
+
+
+</html>
