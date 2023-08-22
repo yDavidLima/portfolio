@@ -18,13 +18,13 @@ function verMais(){
     
     if(trueFalse){
         verMaisbutton.style.display = "none"
-        // verMaisbuttontres.style.display = "none"
+        verMaisbuttontres.style.display = "none"
     } else{
         verMaisbutton.style.display = "flex"
         verMaisbutton.style.margin= "100px"
 
-        // verMaisbuttontres.style.display = "flex"
-        // verMaisbuttontres.style.margin= "100px"
+        verMaisbuttontres.style.display = "flex"
+        verMaisbuttontres.style.margin= "100px"
 
     }
     
