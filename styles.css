@@ -212,12 +212,10 @@ section div p {
     align-items: last baseline;
     text-align: left;
     width: auto;
-
-
-
-
+    
 
 }
+
 
 
 
@@ -234,11 +232,35 @@ section div p {
     font-weight: 700;
     box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.8);
     transition: background-color 0.5s;
-
-
-
+    margin-right: 20px;
 
 }
+.contact-curriculo{
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 15px;
+    border-color: #FF4500;
+    background-color: #260033;
+    color: #FF4500;
+    cursor: pointer;
+    font-weight: 700;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.8);
+    transition: background-color 0.5s;
+}
+
+.contact-curriculo:hover{
+    background-color: #8B008B;
+    border: none;
+    color: #260033;
+}
+
+
+
+
+
+
+
 
 .contact:hover {
     background-color: #8B008B;
@@ -502,6 +524,7 @@ footer img:hover {
 .menu-img{
     display: none;
 }
+
 
 
 

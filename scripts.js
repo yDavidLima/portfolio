@@ -32,6 +32,8 @@ function verMais(){
 
 }
 
+
+
 const list = document.querySelector(".menu-list")
 list.style.maxHeight = "0px"
 
@@ -45,5 +47,19 @@ function menuVisible(){
 
 
 }
+
+
+// const botaoDownload = document.getElementById("download");
+
+// botaoDownload.addEventListener("click", function() {
+//   const urlCurriculo = "https://github.com/yDavidLima/meu-curriculo/blob/main/curr%C3%ADculo.pdf";
+
+//   const tempLink = document.createElement("a");
+//   tempLink.href = urlCurriculo;
+//   tempLink.download = "Curriculo_David_Lima.pdf";
+//   tempLink.click();
+//   document.body.removeChild(tempLink);
+// });
+
 
 
